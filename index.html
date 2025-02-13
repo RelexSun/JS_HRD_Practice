@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+  <main class="px-5 space-y-5">
+    <h1 class="text-3xl font-bold text-center mt-5">Avenger Search List</h1>
+    <div class="flex justify-evenly flex-wrap sm:flex-nowrap space-y-5">
+      <select name="" id="#selectInput" value="default" class="border rounded-lg px-1 h-11">
+        <option value="default" id="#default">Default</option>
+        <option value="number" id="#number">Search by number</option>
+        <option value="text" id="#text">Search by text</option>
+      </select>
+      <input type="" id="#userInput" class="w-full h-11 border-slate-200 border rounded-lg mx-5">
+      <button id="#btn" type="submit" class="rounded-lg bg-black text-white w-32 h-11">Search</button>
+    </div>
+    <p id="#msg"></p>
+    <section class="max-w-[1200px] m-auto mt-9 md:mt-24">
+      <div id="#content" class="flex gap-5 flex-col md:flex-row justify-center items-center">
+        <div class="md:w-[40%] aspect-[3/4] rounded-lg overflow-hidden flex-grow" id="#imgcontain">
+          <img src="" alt="" id="#img" class="">
+        </div>
+
+        <div id="#content-desc" class="md:w-[60%] space-y-6">
+          <h2 id="#h1" class="text-3xl font-bold"></h2>
+          <p id="#p"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
